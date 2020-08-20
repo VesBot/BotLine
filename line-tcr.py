@@ -9,7 +9,7 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="authtoken-ente")
 cl.loginResult()
 
 ki = kk = ks = kc = ka = cl
